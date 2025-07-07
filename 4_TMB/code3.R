@@ -1,6 +1,6 @@
 library(stringr)
 
-setwd("D:\\data\\4_TMB_NEW")
+setwd("D:\\data\\4_TMB")
 data <- read.table("TMB.txt",header=T,row.names = 1,check.names = F)  #941������
 
 ddata <- as.matrix(data)
